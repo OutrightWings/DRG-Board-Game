@@ -1,0 +1,85 @@
+#Page {
+    background-color: #000000
+}
+#Background {
+    position: fixed;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+    height: 774px;
+    width: 1000px;
+}
+#Level {
+    border-style: none;
+    position: fixed;
+    z-index: 1;
+    top: 63px;
+    left: 285px;
+    width: 73px;
+}
+
+#Mission {
+    position: fixed;
+    z-index: 1;
+    top: 122px;
+    left: 260px;
+    width: 158px;
+}
+
+#Desc {
+    position: fixed;
+    z-index: 1;
+    top: 156px;
+    left: 70px;
+    height: 223px;
+    width: 355px;
+}
+
+#Objective {
+    position: fixed;
+    z-index: 1;
+    top: 484px;
+    left: 70px;
+    height: 56px;
+    width: 355px;
+}
+
+#Event {
+    position: fixed;
+    z-index: 1;
+    top: 593px;
+    left: 70px;
+    height: 58px;
+    width: 355px;
+}
+
+.image-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#selected-image {
+    width: 43px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .dropdown-menu li {
+        cursor: pointer;
+    }
+
+        .dropdown-menu li img {
+            width: 43px;
+            height: 40px;
+        }

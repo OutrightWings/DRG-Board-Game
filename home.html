@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html id="Page">
+<head>
+    <title></title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+        <img id="Background" alt="" src="template.jpg" />
+   
+        <input id="Level" type="text" />
+
+        <input id="Mission" type="text" />
+
+        <input id="Desc" type="text" />
+
+        <input id="Objective" type="text" />
+
+        <input id="Event" type="text" />
+        
+
+        <div class="image-dropdown">
+  <img id="selected-image" src="token6.png" alt="Selected Image" onclick="toggleDropdown()">
+  <ul id="image-dropdown-menu" class="dropdown-menu">
+    <li onclick="changeImage('token1.png')"><img src="token1.png" alt="Image 1"></li>
+    <li onclick="changeImage('token2.png')"><img src="token2.png" alt="Image 2"></li>
+    <li onclick="changeImage('token3.png')"><img src="token3.png" alt="Image 3"></li>
+    <!-- Add more list items with images as needed -->
+  </ul>
+</div>
+
+
+</body>
+</html>
